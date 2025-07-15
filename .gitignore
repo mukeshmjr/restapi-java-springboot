@@ -1,0 +1,39 @@
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# === Logs ===
+*.log
+logs/
+*.pid
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VSCode ===
+.vscode/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.jar
+docker-compose.override.yml
+.env
+
+# === Misc ===
+*.swp
+*.swo
+*.bak
+*.tmp
